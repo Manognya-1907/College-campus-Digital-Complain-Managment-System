@@ -17,6 +17,15 @@ def apply_custom_styles():
                 padding-top: 3.5rem;
                 padding-bottom: 1.5rem;
             }
+            
+            .main .block-container p, 
+            .main .block-container h1, 
+            .main .block-container h2, 
+            .main .block-container h3, 
+            .main .block-container label {
+                color: #0f172a !important; 
+            }
+
             section[data-testid="stSidebar"] {
                 background: linear-gradient(180deg, #1e3a8a 0%, #0f172a 100%);
             }
